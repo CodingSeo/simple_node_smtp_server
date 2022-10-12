@@ -19,6 +19,7 @@ const app = new SMTPServer({
             if (err)
                 console.log("Error:", err)
 
+            console.log(`onData`)
             // console.log(parsed.attachments)
             // console.log(parsed.headers)
             // console.log(parsed.html)
